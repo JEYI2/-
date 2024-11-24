@@ -1,0 +1,1 @@
+python E:/1.files/deeplearning/yolov7/train.py --workers 16 --device 0 --batch-size 16 --epochs 50 --data E:/1.files/deeplearning/yolov7/data/custom_data.yaml --hyp ./yolov7/data/hyp.scratch.custom.yaml --cfg E:/1.files/deeplearning/yolov7/cfg/training/yolov7-custom.yaml --name yolov7-custom --weights E:/1.files/deeplearning/yolov7/yolov7_training.pt
